@@ -1,0 +1,2 @@
+<!-- TODO: 5/26/24-4:06 PM Create a contact form that connects to database and saves the information put in.
+ Encrypt all the data using a public key that I generate, only able to be decrypted by my own private key. -->

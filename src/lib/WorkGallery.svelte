@@ -1,0 +1,2 @@
+<!-- TODO: 5/26/24-4:04 PM Create a gallery similar to the codepen https://codepen.io/mican/pen/RyjZgm for past projects worked on.
+This should connect to the projects plug / database to show the top ones. possibly also add in a github chart thingy from my github-->
