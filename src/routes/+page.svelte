@@ -22,7 +22,7 @@
         <p>I appreciate your interest in my portfolio.</p>
 
         <p style="margin-top: 50px; font-family: 'Roboto', sans-serif; text-transform: none; font-weight: 100">
-            I am currently still working on making this website, but please feel free to reach out to me at my
+            I am still working on this website, but please feel free to reach out to me at my
         </p>
 
         <p style="margin-top: 0px; font-family: 'Roboto', sans-serif; text-transform: none; font-weight: 100">
