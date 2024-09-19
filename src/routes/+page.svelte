@@ -5,6 +5,16 @@
     import ContactForm from "$lib/ContactForm.svelte";
     import WorkGallery from "$lib/WorkGallery.svelte";
     import Socials from "$lib/Socials.svelte";
+    import { onMount } from "svelte";
+
+    let isMobile = false;
+
+    onMount(() => {
+        if (window.innerWidth <= 768) {
+            isMobile = true;
+            alert("Warning: This website is not optimized for mobile devices.");
+        }
+    });
 </script>
 
 <div class="page">
@@ -26,9 +36,7 @@
         </p>
 
         <p class="info-text">
-            <a
-                class="contact-link"
-                href="https://www.linkedin.com/in/jonah-bray-587b83244"
+            <a class="contact-link" href="https://www.linkedin.com/in/jonahbray"
                 >LinkedIn</a
             >,
             <a class="contact-link" href="https://github.com/jrb326">Github</a>,
