@@ -1,5 +1,4 @@
 <script>
-
     import Header from "$lib/Header.svelte";
     import SkillCarousel from "$lib/SkillCarousel.svelte";
     import ExperienceTimeline from "$lib/ExperienceTimeline.svelte";
@@ -10,7 +9,7 @@
 
 <div class="page">
     <div class="hero-background">
-        <Header/>
+        <Header />
         <section id="hero-section" class="landing">
             <h1>Jonah Bray</h1>
             <p id="sticky">Software Engineer, Backend Developer.</p>
@@ -21,31 +20,35 @@
         <h1>Work In Progress</h1>
         <p>I appreciate your interest in my portfolio.</p>
 
-        <p style="margin-top: 50px; font-family: 'Roboto', sans-serif; text-transform: none; font-weight: 100">
-            I am still working on this website, but please feel free to reach out to me at my
+        <p class="info-text">
+            I am still working on this website, but please feel free to reach
+            out to me at my
         </p>
 
-        <p style="margin-top: 0px; font-family: 'Roboto', sans-serif; text-transform: none; font-weight: 100">
-            <a style="color: #1cff6b" href="https://www.linkedin.com/in/jonah-bray-587b83244">LinkedIn</a>, <a style="color: #1cff6b" href="https://github.com/jrb326">Github</a>, Email, or Phone Number that is listed on my resume.
+        <p class="info-text">
+            <a
+                class="contact-link"
+                href="https://www.linkedin.com/in/jonah-bray-587b83244"
+                >LinkedIn</a
+            >,
+            <a class="contact-link" href="https://github.com/jrb326">Github</a>,
+            Email, or Phone Number that is listed on my resume.
         </p>
-<!--        <SkillCarousel />-->
+        <!--        <SkillCarousel />-->
     </section>
-<!--    <section id="work">-->
-<!--        <WorkGallery />-->
-<!--    </section>-->
-<!--    <section id="experience">-->
-<!--        <ExperienceTimeline />-->
-<!--    </section>-->
-<!--    <section id="contact">-->
-<!--        <ContactForm />-->
-<!--        <Socials />-->
-<!--    </section>-->
-
+    <!--    <section id="work">-->
+    <!--        <WorkGallery />-->
+    <!--    </section>-->
+    <!--    <section id="experience">-->
+    <!--        <ExperienceTimeline />-->
+    <!--    </section>-->
+    <!--    <section id="contact">-->
+    <!--        <ContactForm />-->
+    <!--        <Socials />-->
+    <!--    </section>-->
 </div>
 
-
 <style>
-
     :global(body) {
         margin: 0;
         padding: 0;
@@ -72,7 +75,8 @@
         height: 100dvh;
         flex-direction: column;
         text-transform: uppercase;
-
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 
     .landing h1 {
@@ -81,6 +85,7 @@
         font-family: "Poppins", sans-serif;
         margin: 0 auto;
         color: white;
+        text-align: center;
     }
 
     .landing p {
@@ -89,6 +94,37 @@
         font-family: "Roboto Thin", sans-serif;
         color: white;
         margin: 0 auto;
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        .landing h1 {
+            font-size: 3rem;
+        }
+
+        .landing p {
+            font-size: 1rem;
+        }
+    }
+
+    .info-text {
+        margin-top: 50px;
+        font-family: "Roboto", sans-serif;
+        text-transform: none;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .info-text:first-of-type {
+        margin-top: 50px;
+    }
+
+    .info-text:last-of-type {
+        margin-top: 0;
+    }
+
+    .contact-link {
+        color: #1cff6b;
     }
 
     #expertise {
@@ -96,6 +132,8 @@
         width: 100%;
         height: 100vh;
         z-index: 0;
+        padding: 20px;
+        box-sizing: border-box;
     }
 
     #work {
