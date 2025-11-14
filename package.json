@@ -39,8 +39,12 @@
 		"wrangler": "^4.38.0"
 	},
 	"dependencies": {
+		"@icons-pack/svelte-simple-icons": "^6.5.0",
 		"@sveltejs/adapter-auto": "^6.1.0",
 		"@tailwindcss/aspect-ratio": "^0.4.2",
-		"lucide-svelte": "^0.544.0"
+		"clsx": "^2.1.1",
+		"lucide-svelte": "^0.544.0",
+		"svelte-motion": "^0.12.2",
+		"tailwind-merge": "^3.4.0"
 	}
 }

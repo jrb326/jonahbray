@@ -12,14 +12,14 @@ compatibility_date = "2025-09-18"
 # Enable Node.js APIs polyfill if any dependency relies on Node built-ins
 compatibility_flags = ["nodejs_compat"]
 
+# Use Workers Dev by default; set `routes` when binding a custom domain
+workers_dev = true
+
 # Bind the built static assets directory to serve files efficiently in Workers
 [assets]
 # this must match the directory produced by adapter-cloudflare
 binding = "ASSETS"
 directory = ".svelte-kit/cloudflare"
-
-# Use Workers Dev by default; set `routes` when binding a custom domain
-workers_dev = true
 
 # If you use KV, D1, R2, Durable Objects, Queues, etc., define them below.
 # [[kv_namespaces]]

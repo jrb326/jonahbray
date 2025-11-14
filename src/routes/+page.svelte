@@ -5,7 +5,7 @@
 		MapPin, 
 		Calendar, 
 		Mail, 
-		Github, 
+		Github,
 		Linkedin, 
 		ExternalLink,
 		GraduationCap,
@@ -17,6 +17,8 @@
 		Server,
 		Globe
 	} from 'lucide-svelte';
+
+
 
 	let mounted = $state(false);
 
@@ -309,17 +311,17 @@
 
 		<div class="bg-white rounded-2xl shadow-xl p-8 mb-8">
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-				<a href="mailto:jonah@example.com" class="flex flex-col items-center p-6 hover:bg-gray-50 rounded-lg transition-colors duration-200">
+				<a href="mailto:contact@jonahbray.com" class="flex flex-col items-center p-6 hover:bg-gray-50 rounded-lg transition-colors duration-200">
 					<Mail size={32} class="text-blue-600 mb-3" />
 					<span class="text-gray-900 font-medium">Email</span>
 					<span class="text-gray-600 text-sm">Get in touch</span>
 				</a>
-				<a href="https://github.com" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center p-6 hover:bg-gray-50 rounded-lg transition-colors duration-200">
+				<a href="https://github.com/jrb326" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center p-6 hover:bg-gray-50 rounded-lg transition-colors duration-200">
 					<Github size={32} class="text-gray-900 mb-3" />
 					<span class="text-gray-900 font-medium">GitHub</span>
 					<span class="text-gray-600 text-sm">View my code</span>
 				</a>
-				<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center p-6 hover:bg-gray-50 rounded-lg transition-colors duration-200">
+				<a href="https://www.linkedin.com/in/jonahbray/" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center p-6 hover:bg-gray-50 rounded-lg transition-colors duration-200">
 					<Linkedin size={32} class="text-blue-600 mb-3" />
 					<span class="text-gray-900 font-medium">LinkedIn</span>
 					<span class="text-gray-600 text-sm">Professional network</span>
