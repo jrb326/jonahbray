@@ -43,7 +43,7 @@
 		{
 			title: 'Backend Developer',
 			company: 'Epilogue Systems Inc',
-			period: 'August 2025 - Current',
+			period: 'August 2025 - December 2025',
 			description: 'Worked as a backend .NET developer, working on their core offerings and API\'s as directed through Jira tickets.',
 			icon: Code
 		},
